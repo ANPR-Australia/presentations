@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				<h2>Why ANPR</h2>
+				Get a computer to perform a tedius, error prone, repetitive and expensive task.
+				</section>
+				<section>
+				<h2>How?</h2>
+				Deep Learning
+
+				... insert image of a dog labeled with its breed ...
+				</section>
+				<section>
+				<h2>Why Deep Learning?</h2>
+				<ul>
+					<li>Deal with the diversity of Australian plates - at least 15,000 unique designs
+					</li>
+					<li>Gets better with use
+					</li>
+				</ul>
+				</section>
+				<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
+						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+							<h2>Video Demo</h2>
+							<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+						</div>
+				</section>
+				
+				<section>
+				<h2>Results</h2>
+				<ul>
+					<li> We can identify a number plate in an image with &gt;95% accuracy </li>
+					<li> We can read the text on it with _____ accuracy </li>
+					<li> Overall &gt;65% of numberplates read correctly </li>
+				</ul>
+				</section>
+
+				<section>
+				<h2>They'll only get better!</h2>
+				<ul>
+					<li>Training!</li>
+					<li>Improving pipeline</li>
+					<li>Augmenting data sources</li>
+					<li>Incorporating new technology as it appears</li>
+				</ul>
+				This is just the beginning
+				</section>
+
+				<section>
+				<h2>What's Next?</h2>
+				We can use our Deep Learning capability to tackle other problems. For example, common exceptions.
+				</section>
+
+				<section>
+				<h2>Jess' Demo</h2>
+				</section>
+
+				<section>
+				<h2>Improved Experience for Staff</h2>
+				<ul>
+					<li>More throughput</li>
+					<li>Fewer errors</li>
+					<li>Less fatigue, more interesting work</li>
+				</ul>
+
+				</section>
+
+				<section>
+				<h2>Cross Government Utility</h2>
+				<ul>
+					<li>Works for plates Australia wide</li>
+					<li>Useful for: </li>
+					<span style="display: inline-block;" class="fragment fade-right">Police, </span>
+							<span style="display: inline-block;" class="fragment fade-up">TransportForNSW, </span>
+							<span style="display: inline-block;" class="fragment fade-down">Tolls, </span>
+							<span style="display: inline-block;" class="fragment fade-left">Interstate services</span>
+							<span style="display: inline-block;" class="fragment fade-up">Biosecurity, transport logistics, licensing, etc..., </span>
+				</section>
+				
+				<section>
+				<h2>Next Steps</h2>
+				<ul>
+					<li> Project Planning </li>
+					<li> Technology Development 
+						<ul> 
+							<li>Further training </li>
+							<li>System integration</li>
+							<li>APIs</li>
+						</ul>
+				</ul>
+				</section>
+
+				<section>
+				<h2>Discussion/Questions</h2>
+				</section>
+				
+				<section>
+				<h2>Thank you!</h2>
+				</section>
+
+
+
+
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
