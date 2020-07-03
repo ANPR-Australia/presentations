@@ -1,5 +1,11 @@
 # reveal.js ![tests](https://github.com/hakimel/reveal.js/workflows/tests/badge.svg) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
 
+In order to export the slides as a pdf, [install decktape](https://github.com/astefanutti/decktape), and run something like:
+
+`$ decktape -p 3000 --size '2880x1440'  reveal https://anpr-australia.github.io/presentations/anpr_showcase.html#/ anpr_showcase.pdf`
+
+You might need to tweak the resolution if you want a particular aspect ratio. In this particular slide deck, 3000ms (pause arg) was enough time to download all the images.
+
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](https://revealjs.com/).
 
 reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [Markdown support](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). There's also a fully featured visual editor and platform for sharing reveal.js presentations at [slides.com](https://slides.com?ref=github).
